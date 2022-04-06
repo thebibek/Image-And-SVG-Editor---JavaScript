@@ -1,0 +1,106 @@
+<?php require_once("./includes/db.php"); ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    .heading img {
+        width: 100px;
+        height: auto;
+    }
+
+    .heading a {
+        color: #FFF;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .heading svg {
+        width: 25px;
+        height: 25px;
+        padding-right: 5px;
+    }
+
+    .heading {
+        padding-right: 20px;
+    }
+
+    .credit-body a {
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="card">
+            <div class="card-header">Images Credits</div>
+            <div class="card-body">
+                <div class="p-2">
+                    <div class="row m-0">
+                        <div class="col-md-6">
+                            <h3 class="heading">
+                                <a href="https://www.flaticon.com/" target="_blank">
+                                    <img src="https://media.flaticon.com/dist/min/img/logo/flaticon_negative.svg" alt="flaticon logo">
+                                </a>
+                            </h3>
+                            <div class="pt-2">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/dimitry-miroliubov" title="Dimitry Miroliubov">Dimitry Miroliubov</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/tomas-knop" title="Tomas Knop">Tomas Knop</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                            <div>Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="heading">
+                                <a href="https://www.freepik.com/" target="_blank">
+                                    Freepik
+                                </a>
+                            </h3>
+                            <div class="credit-body">
+                                <a href="https://www.freepik.com/free-photos-vectors/dog">Dog vector created by brgfx - www.freepik.com</a>
+                                <a href="https://www.freepik.com/vectors/background">Background vector created by brgfx - www.freepik.com</a>
+                                <a href="https://www.freepik.com/free-photos-vectors/car">Car vector created by brgfx - www.freepik.com</a>
+                                <a href="https://www.freepik.com/vectors/background">Background vector created by brgfx - www.freepik.com</a>
+                                <a href="https://www.freepik.com/vectors/food">Food vector created by brgfx - www.freepik.com</a>
+                                <a href="https://www.freepik.com/vectors/car">Car vector created by brgfx - www.freepik.com</a>
+                                <a href="https://www.freepik.com/vectors/heart">Heart vector created by rawpixel.com - www.freepik.com</a>
+                                <a href="https://www.freepik.com/vectors/social-media">Social media vector created by freepik - www.freepik.com</a>
+                                <a href="https://www.freepik.com/vectors/nature">Nature vector created by brgfx - www.freepik.com</a>
+                            </div>
+                            <div class="mt-4">
+                                <h3 class="heading">
+                                    <a href="https://www.pexels.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                            <path d="M2 0h28a2 2 0 0 1 2 2v28a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" fill="#05A081"></path>
+                                            <path d="M13 21h3.863v-3.752h1.167a3.124 3.124 0 1 0 0-6.248H13v10zm5.863 2H11V9h7.03a5.124 5.124 0 0 1 .833 10.18V23z" fill="#fff"></path>
+                                        </svg>
+                                        Pexels
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
